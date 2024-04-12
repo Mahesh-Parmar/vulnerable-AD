@@ -214,6 +214,9 @@ function VulnAD-DCSync {
 function VulnAD-DisableSMBSigning {
     Set-SmbClientConfiguration -RequireSecuritySignature 0 -EnableSecuritySignature 0 -Confirm -Force
 }
+function VulnAD-DisableFirewall {
+    Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+}
 function Invoke-VulnAD {
     Param(
         [int]$UsersLimit = 100,
