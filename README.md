@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-Create a vulnerable active directory that's allowing you to test most of active directory attacks in local lab
+Create a vulnerable active directory that's allowing you to test most of active directory attacks in local lab. This scripts are specially develope for Windows Server 2012 R2.
 
 ### Main Features
 - Randomize Attacks
